@@ -1,0 +1,38 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "Custom Telegram bot",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "build": "tsc",
+    "run": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebam/tgbot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Sean Behan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/codebam/tgbot/issues"
+  },
+  "homepage": "https://github.com/codebam/tgbot#readme",
+  "dependencies": {
+    "@types/node": "^11.11.4",
+    "telegraf": "^3.29.0",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "typescript": "^3.3.4000"
+  }
+}

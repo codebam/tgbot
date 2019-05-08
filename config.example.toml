@@ -1,0 +1,23 @@
+[default]
+token = "your-token"
+  [default.strings.individual]
+    say_something = "I'm giving up on you."
+  [default.strings.random]
+    help = [
+      "Your wish is my command.",
+      "!!!!1111",
+      "I am here."
+    ]
+    all_we_do = [
+      "is hide away",
+      "is chase the day",
+      "is lie and wait",
+      "is feel the fade",
+      "is play it safe",
+      "is live inside a cage"
+    ]
+  [default.strings.list]
+    rules = [
+      "respect each other",
+      "do cool shit"
+    ]

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "esnext",
+    "removeComments": false,
+    "allowJs": true,
+    "pretty": true,
+    "lib": [
+      "dom",
+      "esnext",
+      "esnext.array",
+      "esnext.asynciterable",
+      "esnext.intl",
+      "esnext.symbol"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
