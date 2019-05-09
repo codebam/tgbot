@@ -25,6 +25,9 @@
   "homepage": "https://github.com/codebam/tgbot#readme",
   "dependencies": {
     "@types/node": "^11.11.4",
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "serverless-http": "^2.0.1",
     "telegraf": "^3.29.0",
     "toml": "^3.0.0"
   },
